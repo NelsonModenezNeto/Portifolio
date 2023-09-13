@@ -8,12 +8,6 @@
   transition: 0.5s ease;
 }
 
-.borda{
-  border-bottom: 3px !important;
-  border-color: black !important;
-  border
-}
-
 .fundo {
   background: #FFFFFF url("d.png");
   background-size: cover;
@@ -21,6 +15,51 @@
   background-repeat: no-repeat;
   height: 100vh;
 
+}
+
+.bordainferior {
+  border: 1.2px solid #000;
+  width: 255px;
+}
+
+@media (max-width: 1088px) {
+  .fundo {
+    background: #FFFFFF url("Design\ sem\ nome\ \(16\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .fundo {
+    background: #FFFFFF url("1800.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .fundo {
+    background: #FFFFFF url("700.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .fundo {
+    background: #FFFFFF url("600.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
 
 .navbar {
