@@ -22,17 +22,7 @@
   width: 255px;
 }
 
-@media (max-width: 1088px) {
-  .fundo {
-    background: #FFFFFF url("Design\ sem\ nome\ \(16\).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1600px) {
   .fundo {
     background: #FFFFFF url("1800.png");
     background-size: cover;
@@ -42,9 +32,39 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1088px) {
   .fundo {
     background: #FFFFFF url("700.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .fundo {
+    background: #FFFFFF url("700.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .fundo {
+    background: #FFFFFF url("600.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .fundo {
+    background: #FFFFFF url("600.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
