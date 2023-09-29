@@ -10,7 +10,7 @@
 }
 
 .fundo {
-  background: #FFFFFF url("d.png");
+  background: #FFFFFF url("Design sem nome (16).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 
 @media (max-width: 1600px) {
   .fundo {
-    background: #FFFFFF url("Design\ sem\ nome\ \(16\).png");
+    background: #FFFFFF url("Design sem nome (16).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 
 @media (max-width: 1088px) {
   .fundo {
-    background: #FFFFFF url("700.png");
+    background: #FFFFFF url("Design sem nome (16).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 
 @media (max-width: 900px) {
   .fundo {
-    background: #FFFFFF url("700.png");
+    background: #FFFFFF url("Design sem nome (16).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 
 @media (max-width: 800px) {
   .fundo {
-    background: #FFFFFF url("700.png");
+    background: #FFFFFF url("Design sem nome (16).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 
 @media (max-width: 700px) {
   .fundo {
-    background: #FFFFFF url("600.png");
+    background: #FFFFFF url("Design\ sem\ nome\ \(16\).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
