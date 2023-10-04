@@ -1,4 +1,3 @@
-
 .body {
   color: rgba(0, 0, 0, 0.6);
   font-family: "Roboto", sans-serif;
@@ -23,65 +22,7 @@
   width: 255px;
 }
 
-@media (max-width: 1600px) {
-  .fundo {
-    background: #FFFFFF url("Design sem nome (16).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
 
-@media (max-width: 1088px) {
-  .fundo {
-    background: #FFFFFF url("Design sem nome (16).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 900px) {
-  .fundo {
-    background: #FFFFFF url("Design sem nome (16).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 800px) {
-  .fundo {
-    background: #FFFFFF url("Design sem nome (16).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 700px) {
-  .fundo {
-    background: #FFFFFF url("Design\ sem\ nome\ \(16\).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 600px) {
-  .fundo {
-    background: #FFFFFF url("600.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-}
 
 .navbar {
   transition: ease-in 0.2s;
@@ -357,5 +298,29 @@
 
   to {
     transform: scale(1, 1);
+  }
+}
+
+.hide {
+  overflow: hidden;
+  position: relative;
+}
+
+.animacaocarocel {
+  white-space: nowrap;
+  animation: carrocel 12s linear infinite;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes carrocel {
+  0% {
+    left: -100%;
+    /* Posição inicial à esquerda */
+  }
+
+  100% {
+    left: 100%;
+    /* Posição final à direita */
   }
 }
