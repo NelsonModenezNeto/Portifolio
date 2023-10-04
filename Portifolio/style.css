@@ -308,7 +308,7 @@
 
 .animacaocarocel {
   white-space: nowrap;
-  animation: carrocel 12s linear infinite;
+  animation: carrocel 15s linear infinite;
   position: absolute;
   left: 0;
 }
