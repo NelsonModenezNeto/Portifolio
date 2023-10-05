@@ -17,11 +17,43 @@
 
 }
 
+.fundo1 {
+  background: #FFFFFF url("java.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.fundo2 {
+  background: #FFFFFF url("csharp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.fundo3 {
+  background: #FFFFFF url("php.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.fundo4 {
+  background: #FFFFFF url("flutter.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
 .bordainferior {
   border: 1.2px solid #000;
   width: 255px;
 }
-
 
 
 .navbar {
