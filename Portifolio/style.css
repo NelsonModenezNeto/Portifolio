@@ -358,10 +358,12 @@
 }
 
 .slider {
-  display: block;
-  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .slider li {
@@ -370,7 +372,7 @@
 }
 
 .slider img {
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   vertical-align: top;
 }
@@ -380,26 +382,27 @@
 }
 
 .slider label {
-  background-color: #000;
-  bottom: 10px;
+  border-radius: 1em;
+  background-color: rgb(0, 0, 0);
+  bottom: 20px;
   cursor: pointer;
   display: block;
-  height: 10px;
+  height: 20px;
   position: absolute;
-  width: 10px;
+  width: 20px;
   z-index: 10;
 }
 
 .slider li:nth-child(1) label {
-  left: 10px;
+  left: 20px;
 }
 
 .slider li:nth-child(2) label {
-  left: 40px;
+  left: 50px;
 }
 
 .slider li:nth-child(3) label {
-  left: 70px;
+  left: 80px;
 }
 
 .slider img {
@@ -411,4 +414,64 @@
   opacity: 1;
   visibility: visible;
   z-index: 10;
+}
+
+
+.slider1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.slider1 li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider1 img {
+  height: 80vh;
+  width: 100%;
+  vertical-align: top;
+}
+
+.slider1 input {
+  display: none;
+}
+
+.slider1 label {
+  border-radius: 1em;
+  background-color: rgb(0, 0, 0);
+  bottom: 20px;
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+  z-index: 10;
+}
+
+.slider1 li:nth-child(1) label {
+  left: 20px;
+}
+
+.slider1 li:nth-child(2) label {
+  left: 50px;
+}
+
+.slider1 li:nth-child(3) label {
+  left: 80px;
+}
+
+.slider1 img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider1 li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 20;
 }
