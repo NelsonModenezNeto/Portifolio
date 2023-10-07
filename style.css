@@ -475,3 +475,11 @@
   visibility: visible;
   z-index: 20;
 }
+
+.slider1 label:hover {
+  background-color: #F47956;
+}
+
+.slider label:hover {
+  background-color: #F47956;
+}
