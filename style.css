@@ -372,8 +372,8 @@
 }
 
 .slider img {
-  height: 80vh;
-  width: 100%;
+  height: 85vh;
+  width: 70vw;
   vertical-align: top;
 }
 
@@ -410,7 +410,7 @@
   visibility: hidden;
 }
 
-.slider li input:checked ~ img {
+.slider li input:checked~img {
   opacity: 1;
   visibility: visible;
   z-index: 10;
@@ -432,8 +432,8 @@
 }
 
 .slider1 img {
-  height: 80vh;
-  width: 100%;
+  height: 85vh;
+  width: 70vw;
   vertical-align: top;
 }
 
@@ -470,7 +470,7 @@
   visibility: hidden;
 }
 
-.slider1 li input:checked ~ img {
+.slider1 li input:checked~img {
   opacity: 1;
   visibility: visible;
   z-index: 20;
@@ -482,4 +482,11 @@
 
 .slider label:hover {
   background-color: #F47956;
+}
+
+
+.git:hover a {
+  color: #ffffff;
+  background-color: #6c757d;
+
 }
