@@ -9,7 +9,7 @@
 }
 
 .fundo {
-  background: #FFFFFF url("Design sem nome (16).png");
+  background: #FFFFFF url("./imagens/Design sem nome (16).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 
 .fundo1 {
-  background: #FFFFFF url("java.png");
+  background: #FFFFFF url("./imagens/java.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .fundo2 {
-  background: #FFFFFF url("csharp.png");
+  background: #FFFFFF url("./imagens/csharp.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 .fundo3 {
-  background: #FFFFFF url("php.png");
+  background: #FFFFFF url("./imagens/php.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 }
 
 .fundo4 {
-  background: #FFFFFF url("flutter.png");
+  background: #FFFFFF url("./imagens/flutter.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
