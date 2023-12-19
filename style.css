@@ -490,3 +490,12 @@
   background-color: #6c757d;
 
 }
+
+.btnpurple{
+  background-color: #832c99!important;
+  color: white!important;
+}
+
+.btnpurple:hover {
+  background-color: #974ea9!important;
+}	
